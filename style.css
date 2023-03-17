@@ -1,0 +1,50 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import "css/bootstrap.min.css";
+@import "css/font-awesome.min.css";
+@import "php/css/admin.css";
+/* @import "css/mega_menu.css";
+@import "css/owl.carousel.css";
+@import "css/settings.css";
+@import "css/responsive.css"; */
+
+body {
+    font-family: 'Lato',sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #999
+}
+/* Header general CSS */
+#header.defualt {
+    background: 0 0;
+    z-index: 999;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    width: 100%
+}
+
+#header.defualt {
+    position: relative;
+    background: #323232
+}
+
+/* MEGA MENU CSS */
+.mega-menu {
+    min-height: 62px
+}
+.mega-menu .row {
+    margin-left: 0;
+    margin-right: 0
+}
+.mega-menu .col-md-12 {
+    padding-left: 0;
+    padding-right: 0
+}
+
+@media only screen and (min-width:768px) and (max-width:999px) {
+    .container {
+        width: 96%
+    }
+}
